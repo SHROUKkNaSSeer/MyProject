@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login1"
+    tools:context="com.example.shrouk.myapplication.MainActivity">
+<LinearLayout
+    android:id="@+id/l1"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:textColor="@color/lightOrange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcom"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="60sp"
+
+        />
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_marginTop="135dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <Button
+            android:id="@+id/buttonsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonstyle"
+            android:text="Start Now"
+            android:alpha=".25"
+            android:textColor="@color/blackColor"
+            android:onClick="welcom"
+            />
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

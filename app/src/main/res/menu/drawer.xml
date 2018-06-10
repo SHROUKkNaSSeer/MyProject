@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/db1"
+        android:title="Dash board"
+        android:icon="@drawable/dashboard1"
+        />
+    <item
+        android:id="@+id/db2"
+        android:title="activity"
+        android:icon="@drawable/activity"
+
+        />
+    <item
+        android:id="@+id/db3"
+        android:title="Event"
+        android:icon="@drawable/dashboard"
+
+        />
+    <item
+        android:id="@+id/db4"
+        android:title="Search"
+        android:icon="@drawable/search"
+
+        />
+    <item
+        android:id="@+id/db5"
+        android:title="Sitting"
+        android:icon="@drawable/setting"
+
+        />
+
+    <item
+        android:id="@+id/db7"
+        android:title="Log out"
+        android:icon="@drawable/logout"
+
+        />
+
+</menu>
